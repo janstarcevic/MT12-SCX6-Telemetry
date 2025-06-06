@@ -12,25 +12,22 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 - Clean, readable layout for the MT12’s 128x64 LCD screen
 - Configurable for telemetry-capable ESCs or external voltage sensors
 - Voltage calibration offset
-
-**Optional - Possible to Add Features:**
-- “ARMED/DISARMED” status indicator (compatible with CH5 arming logic)
-
 - Open source, MIT licensed
 
 ## Installation
 
-1. Edit "capacity_mAh" based on your battery capacity.
-2. Edit "modelName" based on your model name.
-3. Edit "avgCurrentA" based on your model's power draw (depending on your usage, such as crawling/bashing, etc. - keep 8 for combined usage)
-4. Measure the real voltage and adjust voltage calibration offset (you can do this in the script or directly on your MT12).
-5. Copy the `.lua` script file into the `/SCRIPTS/TELEMETRY/` directory on your MT12 SD card.
-6. Assign telemetry sensor for voltage (use "BATT") for your voltage wire lead.
-7. Activate the script from the Telemetry menu on your MT12.
+1.	Edit the script to match your model:
+	•	Set capacity_mAh to your battery’s capacity
+	•	Set modelName to your preferred vehicle name
+	•	Set avgCurrentA to your model’s typical current draw (8 is a good starting point)
+2. Measure real voltage and adjust the CALIBRATION_OFFSET if needed (in the script or on the MT12)
+3. Copy the `.lua` script file into the `/SCRIPTS/TELEMETRY/` directory on your MT12 SD card.
+4. Assign telemetry sensor for voltage (use "BATT") for your voltage wire lead.
+5. Activate the script from the Telemetry menu on your MT12.
 
 ## Usage
 
-- The dashboard will automatically show real-time voltage, cell status, drive mode, and more.
+•	Dashboard displays live voltage, average cell voltage, runtime, drive mode, and more at a glance
 
 ## Screenshots
 
