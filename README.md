@@ -4,7 +4,7 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 
 **Features:**
 - Real-time display of battery voltage, average cell voltage, and run time
-- Intelligent model name display: "waiting for power" or "running on" cell count (calculates battery cells)
+- Intelligent model name display: "needs power" or "on" cell count (calculates battery cells)
 - Real-time clock
 - Bold, center-focused average cell voltage readout for quick reference
 - Text-based voltage bar/gradient for intuitive battery status
