@@ -23,7 +23,7 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 - Set avgCurrentA to your model’s typical current draw (8 is a good starting point)
 2. Measure real voltage and adjust the CALIBRATION_OFFSET if needed (in the script or on the MT12)
 3. Copy the `.lua` script file into the `/SCRIPTS/TELEMETRY/` directory on your MT12 SD card.
-4. Assign telemetry sensor for voltage (use "BATT") for your voltage wire lead.
+4. Assign telemetry sensor for voltage (use Vbat as "BATT") for your voltage wire lead.
 5. Activate the script from the Telemetry menu on your MT12.
 
 ## Usage
