@@ -4,7 +4,8 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 
 **Features:**
 - Real-time display of battery voltage, average cell voltage, and run time
-- Intelligent model name display: "waiting for power" or "running on" cell count (calculates battery cells) plus real-time clock
+- Intelligent model name display: "waiting for power" or "running on" cell count (calculates battery cells)
+- Real-time clock
 - Bold, center-focused average cell voltage readout for quick reference
 - Text-based voltage bar/gradient for intuitive battery status
 - Custom alerts and low voltage warnings for maximum pack safety (before ESC low voltage cut-off)
@@ -17,9 +18,9 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 ## Installation
 
 1. Edit the script to match your model:
-•	Set capacity_mAh to your battery’s capacity
-•	Set modelName to your preferred vehicle name
-•	Set avgCurrentA to your model’s typical current draw (8 is a good starting point)
+- Set capacity_mAh to your battery’s capacity
+- Set modelName to your preferred vehicle name
+- Set avgCurrentA to your model’s typical current draw (8 is a good starting point)
 2. Measure real voltage and adjust the CALIBRATION_OFFSET if needed (in the script or on the MT12)
 3. Copy the `.lua` script file into the `/SCRIPTS/TELEMETRY/` directory on your MT12 SD card.
 4. Assign telemetry sensor for voltage (use "BATT") for your voltage wire lead.
@@ -27,7 +28,7 @@ A custom Lua dashboard for the RadioMaster MT12 transmitter, designed specifical
 
 ## Usage
 
-•	Dashboard displays live voltage, average cell voltage, runtime, drive mode, and more at a glance
+Hit Telemetry button to display live voltage, average cell voltage, runtime, drive mode, and more at a glance.
 
 ## Screenshots
 
